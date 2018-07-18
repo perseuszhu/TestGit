@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 
-public class Test1 {
+public class FileRead {
     public static String txt2string(File file) {
         StringBuilder result = new StringBuilder();
         try
@@ -30,7 +30,7 @@ public class Test1 {
 
 
     public static void main(String[] args) {
-        File file = new File("E:/yo.txt");
+        File file = new File("E:/filewrite.txt");
         System.out.println(txt2string(file));
 
 
