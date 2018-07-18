@@ -19,7 +19,7 @@ public class FileWrite {
             for( int i = 0; i<3000; i++)
             {
                 fw.write("abcdefgh"+i+", ");
-                fw.write("ssssssss"+i+",/r/n");
+                fw.write("ssssssss"+i+",\r\n");
                 fw.flush();
             }
             System.out.println("Success");
