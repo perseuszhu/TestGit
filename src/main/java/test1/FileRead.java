@@ -14,7 +14,7 @@ public class FileRead {
             String s = null;
             while ((s = br.readLine()) != null)
             {
-                result.append(System.lineSeparator() + s);
+                    result.append(System.lineSeparator() + s);
             }
             br.close();
         }
@@ -30,7 +30,7 @@ public class FileRead {
 
 
     public static void main(String[] args) {
-        File file = new File("E:/filewrite.txt");
+        File file = new File("E:/test.txt");
         System.out.println(txt2string(file));
 
 

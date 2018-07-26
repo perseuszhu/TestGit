@@ -8,7 +8,7 @@ public class FileWrite {
     public static void main (String[] args) throws IOException {
         File file = null;
         FileWriter fw = null;
-        file = new File("E://filewrite.txt");
+        file = new File("E://test.txt");
         try
         {
             if (!file.exists())
